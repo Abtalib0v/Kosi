@@ -213,4 +213,36 @@ table {
 #product .cards h3 {
   font-weight: 600;
   font-family: "poppins";
+}
+#product .sellers {
+  margin: 50px 0;
+}
+#product .sellers h1 {
+  font-family: "poppins";
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#product .sellers .sellers_cards {
+  display: flex;
+  padding: 10px 0;
+}
+#product .sellers .sellers_cards .sellers_image img {
+  width: 100%;
+  height: 100%;
+}
+#product .sellers .sellers_cards .text {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "poppins";
+  gap: 10px;
+}
+#product .sellers .sellers_cards .text h2 {
+  font-size: 14px;
+  font-weight: 300;
+}
+#product .sellers .sellers_cards .text h3 {
+  font-size: 16px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
