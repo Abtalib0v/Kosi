@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#popular_parts h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "poppins";
+  font-weight: 500;
+  margin: 0 auto;
+  margin: 50px 0;
+}
+#popular_parts .cards .cards_image img {
+  width: 100%;
+}
+#popular_parts .cards h2 {
+  font-family: "poppins";
+  font-size: 15px;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#popular_parts .cards h2:hover {
+  color: #cd8f5c;
+}
+#popular_parts .cards h3 {
+  font-family: "poppins";
+  font-size: 15px;
+  text-align: center;
+  color: #666666;
+}
+
+#product {
+  padding: 80px 0px 100px 0px;
+}
+#product .categories h1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-family: "poppins";
+}
+#product ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+#product ul li a {
+  color: #666666;
+  font-size: 16px;
+  font-family: "poppins";
+  text-decoration: inherit;
+  font-weight: 300;
+}
+#product ul li a:hover {
+  color: #cd8f5c;
+  text-decoration: underline;
+}
+#product ul li h2 {
+  color: #666666;
+  font-family: "poppins";
+  text-decoration: inherit;
+  font-weight: 300;
+}
+#product .showing {
+  display: flex;
+  background-color: #f4f4f4;
+  margin-bottom: 35px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#product .showing h4 {
+  padding: 20px;
+  font-family: "poppins";
+  color: #666666;
+  font-size: 14px;
+  font-weight: 300;
+}
+#product .cards {
+  padding-bottom: 60px;
+}
+#product .cards .cards_image {
+  position: relative;
+  overflow: hidden;
+}
+#product .cards .cards_image img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+#product .cards .cards_image .hover_image {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+#product .cards .cards_image .hover_image:hover {
+  opacity: 1;
+}
+#product .cards .cards_image .hover_image:hover .cards_btn {
+  transform: translateY(-65px);
+}
+#product .cards .cards_image .hover_image img {
+  width: 100%;
+  height: 100%;
+}
+#product .cards .cards_image .hover_image .cards_btn {
+  display: flex;
+  position: absolute;
+  bottom: -48px;
+  left: 25%;
+  gap: 10px;
+  transition: 0.3s ease-in-out;
+}
+#product .cards .cards_image .hover_image .cards_btn button {
+  width: 45px;
+  height: 45px;
+  border-radius: 500px;
+  background-color: black;
+  color: #FFF;
+  border: 0px;
+  transition: 0.2s ease-in-out;
+}
+#product .cards .cards_image .hover_image .cards_btn button:hover {
+  background-color: #cd8f5c;
+}
+#product .cards a {
+  margin-top: 20px;
+  text-decoration: inherit;
+  color: inherit;
+  font-weight: 300;
+  font-family: "poppins";
+  transition: 0.3s ease-in-out;
+}
+#product .cards a h1 {
+  margin-top: 20px;
+}
+#product .cards a:hover {
+  color: #cd8f5c;
+}
+#product .cards .circle {
+  padding: 15px 0;
+  display: flex;
+  gap: 5px;
+}
+#product .cards .circle .dot {
+  width: 20px;
+  height: 20px;
+  background-color: #deb887;
+  border-radius: 500px;
+}
+#product .cards h3 {
+  font-weight: 600;
+  font-family: "poppins";
+}/*# sourceMappingURL=style.css.map */
