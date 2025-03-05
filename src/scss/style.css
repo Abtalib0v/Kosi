@@ -226,6 +226,9 @@ table {
   display: flex;
   padding: 10px 0;
 }
+#product .sellers .sellers_cards .sellers_image {
+  cursor: pointer;
+}
 #product .sellers .sellers_cards .sellers_image img {
   width: 100%;
   height: 100%;
@@ -241,6 +244,11 @@ table {
 #product .sellers .sellers_cards .text h2 {
   font-size: 14px;
   font-weight: 300;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+#product .sellers .sellers_cards .text h2:hover {
+  color: #cd8f5c;
 }
 #product .sellers .sellers_cards .text h3 {
   font-size: 16px;
